@@ -6,7 +6,6 @@
 }
 
 body{
-  background-color: #111;
   color: white;
 }
 .parent{
@@ -20,7 +19,26 @@ body{
   height: 400px;
   width: 300px;
   background-color: #fff;
-  border-radius: 20px;
+  border-radius: 30px;
+  padding: 30px;
+}
+.card .top{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.top img{
+  height: 30px;
+  width: 32px;
+  border-radius: 50%;
+  border: 1px solid #dadada;
+  padding: 2px;
+
+}
+.top button{
+  display: flex;
+
 }
 h3, h4, p, button {
   background-color: white;
