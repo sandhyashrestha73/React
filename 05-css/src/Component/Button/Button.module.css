@@ -1,0 +1,25 @@
+.button {
+    background-color: red;
+    width: 200px;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 20px;
+}
+
+.login {
+    border-radius: 5px;
+    color: white;
+    background-color: #111;
+    width: fit-content;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin: 10px 20px;
+
+}
+
+.parent {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
