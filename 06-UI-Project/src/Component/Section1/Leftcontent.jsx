@@ -1,0 +1,12 @@
+import React from 'react'
+import Hero from './Hero'
+
+const Leftcontent = () => {
+  return (
+    <div className='h-full flex flex-col justify-between w-1/3 '>
+        <Hero/>
+    </div>
+  )
+}
+
+export default Leftcontent
