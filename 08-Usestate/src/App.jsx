@@ -24,7 +24,7 @@ export default App
 
 
 
-
+/*
 
 import React, { useState } from 'react'
 
@@ -46,6 +46,33 @@ const App = () => {
       <button onClick={Decrease}>Decrease</button>
       <button onClick={Reset}>Reset</button> <br /> <br />
        <h1>{num}</h1>
+    </div>
+  )
+}
+
+export default App
+
+*/
+
+import React , { useState } from 'react'
+
+const App = () => {
+  const [num, setNum] = useState(10)   //({user:'sandhya',age:'19'})
+  const btnclicked=()=> {
+    setNum(prev=> (prev+1) ) //const newNum{...num};     //setNum(prev=>({...prev,user:'sandy'}))
+    setNum(prev=> (prev+1) )  //newNum.user='sandy'
+    setNum(prev=> (prev+1) )  //setNum(newNum)
+    setNum(prev=> (prev+1) )  //for display {num.user}
+    setNum(prev=> (prev+1) )
+    
+   
+    
+
+}
+  return (
+    <div>
+      <h1>{num}</h1>   
+      <button onClick={btnclicked}>Click</button>
     </div>
   )
 }
